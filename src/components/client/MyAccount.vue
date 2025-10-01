@@ -533,7 +533,7 @@ const setAsDefaultAddress = async (addressId) => {
     try {
       // GIẢ ĐỊNH MỘT API ĐỂ ĐẶT MẶC ĐỊNH ĐỊA CHỈ
       // Bạn cần triển khai API này trên backend
-      await apiClient.put(`/addresses/set-default/${addressId}`, {}, {
+      await apiClient.put(`/addresses/${addressId}/set-default`, {}, {
         headers: {
           'X-User-ID': user.value.id,
         },

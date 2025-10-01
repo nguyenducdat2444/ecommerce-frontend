@@ -112,7 +112,7 @@
     </div>
 
 
-    <a :href="`/coolmen/order/${orderData.id}`" class="btn-view-detail">Xem chi tiết hóa đơn</a>
+    <!-- <a :href="`/coolmen/order/${orderData.id}`" class="btn-view-detail">Xem chi tiết hóa đơn</a> -->
 </div>
         </div>
     </div>
